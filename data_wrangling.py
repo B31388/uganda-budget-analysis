@@ -87,4 +87,4 @@ df_cleaned = (
 # Save to CSV
 output = '/workspaces/uganda-budget-analysis/uganda_budget_cleaned.csv'
 df_cleaned.to_csv(output, index=False)
-print(f"✅ Cleaned dataset saved to '{output}'")
+print(f"Cleaned dataset saved to '{output}'")
